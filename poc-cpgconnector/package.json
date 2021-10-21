@@ -1,0 +1,19 @@
+{
+  "name": "nacm-queueconnector",
+  "version": "1.0.0",
+  "description": "for azure servicebus client implimentation",
+  "main": "index.js",
+  "scripts": {
+    "start": "node topicconnector.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "nacm-queue"
+  ],
+  "author": "Baiju T S",
+  "license": "ISC",
+  "dependencies": {
+    "azure": "^2.3.1-preview",
+    "azure-sb": "^0.11.1"
+  }
+}
